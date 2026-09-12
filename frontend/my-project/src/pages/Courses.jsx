@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import CourseCard from "../components/CourseCard";
-const API_URL= "http://localhost:5000/api/courses";
+const API_URL= "https://learnhub-backend-pi.vercel.app//api/courses";
 function Courses(){
     const [courses, setCourses] = useState([]);
     const [loading, setLoading] = useState(true);
