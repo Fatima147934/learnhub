@@ -30,6 +30,5 @@ mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log('MongoDB Altas connected');
     // app.listen(PORT, ()=> console.log(`server running on http://localhost:${PORT}`));
 })
-
 .catch((error)=> console.error('MongoDB connection error:', error.message));
 module.exports= app;
